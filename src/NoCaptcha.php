@@ -45,7 +45,7 @@ class NoCaptcha
         $attributes['data-sitekey'] = $this->sitekey;
 
         $html = '<script src="'.$this->getJsLink($lang).'" async defer></script>'."\n";
-        $html .= '<div class="g-recaptcha"'.$this->buildAttributes($attributes).'></div>';
+        $html .= '<div v-model="no-captcha" class="g-recaptcha"'.$this->buildAttributes($attributes).'></div>';
 
         return $html;
     }

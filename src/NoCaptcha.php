@@ -1,6 +1,6 @@
 <?php
 
-namespace Anhskohbo\NoCaptcha;
+namespace bastmann\NoCaptcha;
 
 use Symfony\Component\HttpFoundation\Request;
 

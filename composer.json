@@ -1,12 +1,12 @@
 {
-    "name": "kristian/no-captcha",
+    "name": "bastmann/no-captcha",
     "description": "No CAPTCHA reCAPTCHA For Laravel.",
     "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel4", "laravel5"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Kristian",
-            "email": "oxkipo@gmail.com"
+            "name": "Tiago Bast",
+            "email": "tiago@hospedashop.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Anhskohbo\\NoCaptcha\\": "src/"
+            "bastmann\\NoCaptcha\\": "src/"
         }
     }
 }
